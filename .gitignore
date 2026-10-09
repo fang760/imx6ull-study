@@ -1,0 +1,17 @@
+*.o
+*.elf
+*.bin
+*.imx
+*.dis
+*.su
+*.cmd
+*.mod
+*.mod.c
+*.order
+*.symvers
+*.code-workspace
+imxdownload
+SI/
+.tmp_versions/
+__pycache__/
+.vscode/
