@@ -15,3 +15,6 @@ SI/
 .tmp_versions/
 __pycache__/
 .vscode/
+*.ko
+*.a
+
