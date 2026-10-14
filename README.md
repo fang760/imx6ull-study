@@ -16,3 +16,9 @@
 - [x] I.MX6U 启动方式详解 —— 串行下载/内部 BOOT、BOOT ROM、IVT/Boot Data/DCD
 - [x] C 语言版 LED 灯实验 —— 汇编启动、C 部分、链接脚本 .lds、Makefile
 - [x] 模仿 STM32 驱动开发格式实验 —— 寄存器结构体定义、驱动封装、Makefile/链接脚本
+
+## 第三篇 系统移植
+- [x] U-Boot 编译、烧写与命令 — 交叉编译、SD 烧写、启动日志、环境变量/内存/网络/MMC 命令
+- [x] U-Boot 源码目录与 Makefile — 目录结构、make defconfig、.config、递归编译
+- [x] Linux 内核编译 — 内核获取、配置、编译、zImage/dtb
+
