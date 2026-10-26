@@ -20,5 +20,6 @@
 ## 第三篇 系统移植
 - [x] U-Boot 编译、烧写与命令 — 交叉编译、SD 烧写、启动日志、环境变量/内存/网络/MMC 命令
 - [x] U-Boot 源码目录与 Makefile — 目录结构、make defconfig、.config、递归编译
-- [x] Linux 内核编译 — 内核获取、配置、编译、zImage/dtb
+- [x] Linux 内核编译 — 内核获取、配置、编译、zImage/dtb、yylloc重定义问题
 - [x] Linux内核启动流程 — 链接脚本vimlinux.lds、内核启动流程分析、stext、start_kernel、rest_init、init进程
+- [x] Linux 内核移植 — 官方内核编译、添加自己的开发板（defconfig/设备树）、CPU 主频、8 线 EMMC、工程配置、网络驱动（SMSC PHY复位）
