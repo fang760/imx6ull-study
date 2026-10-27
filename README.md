@@ -23,3 +23,4 @@
 - [x] Linux 内核编译 — 内核获取、配置、编译、zImage/dtb、yylloc重定义问题
 - [x] Linux内核启动流程 — 链接脚本vimlinux.lds、内核启动流程分析、stext、start_kernel、rest_init、init进程
 - [x] Linux 内核移植 — 官方内核编译、添加自己的开发板（defconfig/设备树）、CPU 主频、8 线 EMMC、工程配置、网络驱动（SMSC PHY复位）
+- [x] 根文件系统构建 — BusyBox配置编译、rootfs目录构建、/etc 配置rcS/fstab/inittab、NFS挂载启动（nfsvers=3,tcp）
