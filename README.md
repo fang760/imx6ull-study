@@ -26,4 +26,4 @@
 - [x] 根文件系统构建 — BusyBox配置编译、rootfs目录构建、/etc 配置rcS/fstab/inittab、NFS挂载启动（nfsvers=3,tcp）
 
 ## 第四篇 驱动开发
-- [x] chrdevbase 字符设备驱动实验 — 驱动框架、file_operations、模块加载卸载、用户态APP交互
+- [x] [chrdevbase 字符设备驱动实验](part4_driver/CharDriver_Lab/CharDriver_Lab.md) 字符设备驱动实验 — 驱动框架、file_operations、模块加载卸载、用户态APP交互
