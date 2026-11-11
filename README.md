@@ -30,4 +30,4 @@
 
 
 ## 4.Qt 应用开发
-- [x] [Qt界面程序实验](part4_qt/qt_note.md) —— C++基础、Qt Creator、Designer、信号槽、Qt界面程序开发
+- [x] [Qt界面程序实验](part4_Qt/qt_note.md) —— C++基础、Qt Creator、Designer、信号槽、Qt界面程序开发
