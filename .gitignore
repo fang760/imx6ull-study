@@ -17,4 +17,6 @@ __pycache__/
 .vscode/
 *.ko
 *.a
+*.pro.user
+
 

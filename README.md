@@ -2,12 +2,12 @@
 > 基于 NXP I.MX6ULL (Cortex-A7) 平台的嵌入式 Linux 驱动开发实践
 ---
 
-## 第一篇 Ubuntu 系统入门
+## Ubuntu 系统入门
 - [x] Ubuntu 系统安装 —— VMware 虚拟机、创建虚拟机、安装 Ubuntu
 - [x] Ubuntu 系统入门 —— 终端/Shell、常用命令、APT、vim、文件权限、压缩解压
 - [x] Linux C 编程入门 —— gcc 编译流程、Makefile 规则/变量/模式规则/自动化变量
 
-## 第二篇 ARM裸机
+## 1.ARM裸机
 - [x] 开发环境搭建 —— 文件互传、NFS/SSH、交叉编译工具链、串口终端
 - [x] I.MX6U-ALPHA/Mini 开发平台介绍 —— 底板/核心板资源、原理图、NAND/EMMC/DDR3L
 - [x] Cortex-A7 MPCore 架构 —— 处理器运行模型、通用寄存器、程序状态寄存器
@@ -17,7 +17,7 @@
 - [x] C 语言版 LED 灯实验 —— 汇编启动、C 部分、链接脚本 .lds、Makefile
 - [x] 模仿 STM32 驱动开发格式实验 —— 寄存器结构体定义、驱动封装、Makefile/链接脚本
 
-## 第三篇 系统移植和文件系统构建
+## 2.系统移植和文件系统构建
 - [x] U-Boot 编译、烧写与命令 — 交叉编译、SD 烧写、启动日志、环境变量/内存/网络/MMC 命令
 - [x] U-Boot 源码目录与 Makefile — 目录结构、make defconfig、.config、递归编译
 - [x] Linux 内核编译 — 内核获取、配置、编译、zImage/dtb、yylloc重定义问题
@@ -25,5 +25,9 @@
 - [x] Linux 内核移植 — 官方内核编译、添加自己的开发板（defconfig/设备树）、CPU 主频、8 线 EMMC、工程配置、网络驱动（SMSC PHY复位）
 - [x] 根文件系统构建 — BusyBox配置编译、rootfs目录构建、/etc 配置rcS/fstab/inittab、NFS挂载启动（nfsvers=3,tcp）
 
-## 第四篇 驱动开发
+## 3.驱动开发
 - [x] [chrdevbase 字符设备驱动实验](part4_driver/CharDriver_Lab/CharDriver_Lab.md) — 驱动框架、file_operations、模块加载卸载、用户态APP交互
+
+
+## 4.Qt 应用开发
+- [x] [Qt界面程序实验](part4_qt/qt_note.md) —— C++基础、Qt Creator、Designer、信号槽、Qt界面程序开发
