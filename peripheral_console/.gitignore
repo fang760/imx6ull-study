@@ -1,0 +1,10 @@
+# 编译产物
+*.o
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+*.cmd
+/qt/Makefile
+/qt/console
