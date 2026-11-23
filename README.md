@@ -12,18 +12,18 @@
 - [x] I.MX6U-ALPHA/Mini 开发平台介绍 —— 底板/核心板资源、原理图、NAND/EMMC/DDR3L
 - [x] Cortex-A7 MPCore 架构 —— 处理器运行模型、通用寄存器、程序状态寄存器
 - [x] ARM 汇编基础 —— GNU 汇编语法、数据传输/访存/栈/跳转/运算指令
-- [x] 汇编 LED 灯实验 —— IO 复用/配置、GPIO 配置、GPIO 时钟使能、编译下载
+- [x] [汇编 LED 灯实验](part1_baremetal/1_leds/) —— IO 复用/配置、GPIO 配置、GPIO 时钟使能、编译下载
 - [x] I.MX6U 启动方式详解 —— 串行下载/内部 BOOT、BOOT ROM、IVT/Boot Data/DCD
-- [x] C 语言版 LED 灯实验 —— 汇编启动、C 部分、链接脚本 .lds、Makefile
-- [x] 模仿 STM32 驱动开发格式实验 —— 寄存器结构体定义、驱动封装、Makefile/链接脚本
+- [x] [C 语言版 LED 灯实验](part1_baremetal/2_ledc/) —— 汇编启动、C 部分、链接脚本 .lds、Makefile
+- [x] [模仿 STM32 驱动开发格式实验](part1_baremetal/3_ledc_stm32/) —— 寄存器结构体定义、驱动封装、Makefile/链接脚本
 
 ## 2.系统移植和文件系统构建
-- [x] U-Boot 编译、烧写与命令 — 交叉编译、SD 烧写、启动日志、环境变量/内存/网络/MMC 命令
-- [x] U-Boot 源码目录与 Makefile — 目录结构、make defconfig、.config、递归编译
-- [x] Linux 内核编译 — 内核获取、配置、编译、zImage/dtb、yylloc重定义问题
-- [x] Linux内核启动流程 — 链接脚本vimlinux.lds、内核启动流程分析、stext、start_kernel、rest_init、init进程
-- [x] Linux 内核移植 — 官方内核编译、添加自己的开发板（defconfig/设备树）、CPU 主频、8 线 EMMC、工程配置、网络驱动（SMSC PHY复位）
-- [x] 根文件系统构建 — BusyBox配置编译、rootfs目录构建、/etc 配置rcS/fstab/inittab、NFS挂载启动（nfsvers=3,tcp）
+- [x] [U-Boot 编译、烧写与命令](part2_system/uboot/uboot-build-and-commands.md) — 交叉编译、SD 烧写、启动日志、环境变量/内存/网络/MMC 命令
+- [x] [U-Boot 源码目录与 Makefile](part2_system/uboot/uboot-makefile.md) — 目录结构、make defconfig、.config、递归编译
+- [x] [Linux 内核编译](part2_system/linux/kernel-build.md) — 内核获取、配置、编译、zImage/dtb、yylloc重定义问题（见 [yylloc 多重定义修复](part2_system/linux/yylloc-multiple-definition-fix.md)）
+- [x] [Linux内核启动流程](part2_system/linux/kernel-boot-flow.md) — 链接脚本vimlinux.lds、内核启动流程分析、stext、start_kernel、rest_init、init进程
+- [x] [Linux 内核移植](part2_system/linux/kernel-porting.md) — 官方内核编译、添加自己的开发板（defconfig/设备树）、CPU 主频、8 线 EMMC、工程配置、网络驱动（SMSC PHY复位）
+- [x] [根文件系统构建](part2_system/busybox_rootfs/busybox-rootfs.md) — BusyBox配置编译、rootfs目录构建、/etc 配置rcS/fstab/inittab、NFS挂载启动（nfsvers=3,tcp）
 
 ## 3.驱动开发
 - [x] [chrdevbase 字符设备驱动实验](part3_driver/CharDriver_Lab/CharDriver_Lab.md) — 驱动框架、file_operations、模块加载卸载、用户态APP交互
@@ -31,6 +31,8 @@
 
 ## 4.Qt 应用开发
 - [x] [Qt界面程序实验](part4_Qt/qt_note.md) —— C++基础、Qt Creator、Designer、信号槽、Qt界面程序开发
+    - [x] [Qt Hello World 实验](part4_Qt/01_hello_world/) —— 手写代码创建窗口、QLabel 显示文字
+    - [x] [Designer 界面设计实验](part4_Qt/02_designer_example/) —— .ui 文件搭界面、按钮点击响应、信号与槽绑定
 
 ## 5.综合项目
 - [x] [i.MX6ULL 外设控制台](imx6ull-peripheral-console/README.md) —— 一个主设备号 + 三个次设备号的字符设备驱动（LED / 蜂鸣器 / 按键中断）、GT911 触摸驱动适配、Qt 全屏界面、开机自启动脚本
