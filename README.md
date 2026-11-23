@@ -26,8 +26,11 @@
 - [x] 根文件系统构建 — BusyBox配置编译、rootfs目录构建、/etc 配置rcS/fstab/inittab、NFS挂载启动（nfsvers=3,tcp）
 
 ## 3.驱动开发
-- [x] [chrdevbase 字符设备驱动实验](part4_driver/CharDriver_Lab/CharDriver_Lab.md) — 驱动框架、file_operations、模块加载卸载、用户态APP交互
+- [x] [chrdevbase 字符设备驱动实验](part3_driver/CharDriver_Lab/CharDriver_Lab.md) — 驱动框架、file_operations、模块加载卸载、用户态APP交互
 
 
 ## 4.Qt 应用开发
 - [x] [Qt界面程序实验](part4_Qt/qt_note.md) —— C++基础、Qt Creator、Designer、信号槽、Qt界面程序开发
+
+## 5.综合项目
+- [x] [i.MX6ULL 外设控制台](imx6ull-peripheral-console/README.md) —— 一个主设备号 + 三个次设备号的字符设备驱动（LED / 蜂鸣器 / 按键中断）、GT911 触摸驱动适配、Qt 全屏界面、开机自启动脚本
